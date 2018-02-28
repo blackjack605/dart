@@ -18,3 +18,4 @@ brew install nlopt
 brew install ipopt
 brew install urdfdom
 brew install open-scene-graph
+brew install tiny-dnn # for example/humanJointLimits
