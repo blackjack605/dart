@@ -7,6 +7,7 @@ if(NOT TARGET dart-utils-urdf
   return()
 endif()
 
+include(CheckCXXCompilerFlag)
 check_cxx_compiler_flag(--std=c++14 SUPPORTS_STD_CXX14)
 if (NOT SUPPORTS_STD_CXX14)
   return()
