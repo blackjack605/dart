@@ -7,6 +7,11 @@ if(NOT TARGET dart-utils-urdf
   return()
 endif()
 
+check_cxx_compiler_flag(--std=c++14 SUPPORTS_STD_CXX14)
+if (NOT SUPPORTS_STD_CXX14)
+  return()
+endif()
+
 set(TinyDNN_USE_SERIALIZER ON)
 find_package(TinyDNN)
 if(NOT TinyDNN_FOUND)
