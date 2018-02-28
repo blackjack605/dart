@@ -2,7 +2,7 @@
 
 brew 'assimp'
 brew 'boost'
-brew 'bullet'
+brew 'bullet', args: ['--with-double-precision']
 brew 'eigen'
 brew 'fcl'
 #brew 'flann'
