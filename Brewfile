@@ -1,4 +1,4 @@
-tap 'dartsim/dart' # for ipopt
+#tap 'dartsim/dart' # for ipopt
 
 brew 'assimp'
 brew 'boost'
@@ -6,7 +6,7 @@ brew 'bullet'
 brew 'eigen'
 brew 'fcl'
 #brew 'flann'
-brew 'ipopt'
+#brew 'ipopt'
 brew 'libccd'
 brew 'nlopt'
 brew 'ode', args: ['--with-libccd', '--with-double-precision']
