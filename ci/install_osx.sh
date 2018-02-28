@@ -17,5 +17,5 @@ brew list libipoptccd &>/dev/null || brew install ipopt
 brew list nlopt &>/dev/null || brew install nlopt
 brew list ode &>/dev/null || brew install ode
 brew list open-scene-graph &>/dev/null || brew install open-scene-graph
-brew list tinyxml2 &>/dev/null || brew installtinyxml2git
+brew list tinyxml2 &>/dev/null || brew install tinyxml2
 brew list urdfdom &>/dev/null || brew install urdfdom
