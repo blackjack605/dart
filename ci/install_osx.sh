@@ -6,19 +6,16 @@ brew tap dartsim/dart # for ipopt
 
 brew update > /dev/null
 
-brew install git
-brew install cmake
-brew install assimp
-brew install fcl
-brew install bullet
-brew install ode
-brew install flann
-brew install boost
-brew install eigen
-brew install tinyxml
-brew install tinyxml2
-brew install libccd
-brew install nlopt
-brew install ipopt
-brew install urdfdom
-brew install open-scene-graph
+brew list assimp &>/dev/null || brew install assimp
+brew list boost &>/dev/null || brew install boost
+brew list bullet &>/dev/null || brew install bullet
+brew list eigen &>/dev/null || brew install eigen
+brew list fcl &>/dev/null || brew install fcl
+brew list flann &>/dev/null || brew install flann
+brew list libccd &>/dev/null || brew install libccd
+brew list libipoptccd &>/dev/null || brew install ipopt
+brew list nlopt &>/dev/null || brew install nlopt
+brew list ode &>/dev/null || brew install ode
+brew list open-scene-graph &>/dev/null || brew install open-scene-graph
+brew list tinyxml2 &>/dev/null || brew installtinyxml2git
+brew list urdfdom &>/dev/null || brew install urdfdom
