@@ -8,7 +8,7 @@ brew 'fcl'
 #brew 'flann'
 #brew 'ipopt'
 brew 'libccd'
-brew 'nlopt'
+#brew 'nlopt'
 brew 'ode', args: ['--with-libccd', '--with-double-precision']
 brew 'open-scene-graph'
 brew 'tinyxml2'
