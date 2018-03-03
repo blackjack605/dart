@@ -2,14 +2,14 @@
 
 brew 'assimp'
 brew 'boost'
-brew 'bullet', args: ['--with-double-precision']
+brew 'bullet'
 brew 'eigen'
 brew 'fcl'
 #brew 'flann'
 #brew 'ipopt'
 brew 'libccd'
 #brew 'nlopt'
-brew 'ode', args: ['--with-libccd', '--with-double-precision']
+brew 'ode'
 brew 'open-scene-graph'
 brew 'tinyxml2'
 brew 'urdfdom'
